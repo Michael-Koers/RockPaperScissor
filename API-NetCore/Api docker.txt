@@ -1,0 +1,2 @@
+docker build -t core-api .
+docker run --network local_network -p 5000:80 --detach --name core-api-1 core-api
